@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-react-log-app",
+  "version": "1.0.0",
+  "description": "## Reference - [Building a server-rendered React app with Next.js & Express.js](https://blog.logrocket.com/how-to-build-a-server-rendered-react-app-with-next-express-d5a389e7ab2f)     -",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ssr-server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminhuanghuang/nextjs-react-log-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminhuanghuang/nextjs-react-log-app/issues"
+  },
+  "homepage": "https://github.com/benjaminhuanghuang/nextjs-react-log-app#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
